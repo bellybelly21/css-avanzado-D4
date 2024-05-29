@@ -34,7 +34,7 @@
                 </div>
             </div>
     
-            <div class="second-row">
+            <div class="second-row d-hidden">
                 <div class="icon-direction">
                     <span class="material-symbols-outlined icon-location">location_on</span>
                     <p>Ingresa tu dirección</p>
@@ -89,5 +89,464 @@
             </div>
         </div>
         </header>
+
+        <main>
+            <section class="carousel gallery">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets\img\gallery-1.webp" alt="Imagen 1">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets\img\gallery-2.webp" alt="Imagen 2">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets\img\gallery-3.webp" alt="Imagen 3">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets\img\gallery-4.webp" alt="Imagen 4">
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </section>
+            <script src="assets/js/script-gallery.js"></script>
+
+            <div class="ofertas-main">
+                <section class="ofertas-categorias mejores-ofertas">
+                    <h2 class="h2-title">Mejores ofertas</h2>
+    
+                    <ol class="cards-products">
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c1-1.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show">$ 31.890</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 19.771</p>
+                                            <span class="descuento">38% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 3.285 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Pañales Pampers Premium Care Hipoalergénico Talla XXXG</h2>
+    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c1-2.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show">$ 10.607</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 5.490</p>
+                                            <span class="descuento">48% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 915 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Omo Matic Ultra Power Para Preparar 500ml</h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+    
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c1-3.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show v-hidden">$ 11.990</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 9.490</p>
+                                            <span class="descuento d-hidden">38% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 1.581 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Café Nescafé® Fina Selección Frasco 200g</h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+    
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c1-4.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show">$ 11.990</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 10.467</p>
+                                            <span class="descuento">12% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 1.774 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Pack Barra De Proteína Notsnack  Bar  Peanut+caramel 5unx2</h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+    
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c1-5.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show">$ 14.618</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 7.990</p>
+                                            <span class="descuento">45% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 1.331 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Detergente Liquido Ariel Concentrado Doble Poder...</h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                    </ol>
+                </section>
+    
+                <section class="ofertas-categorias feliz-dia-papa">
+                    <h2 class="h2-title">Feliz día papá</h2>
+    
+                    <ol class="cards-products">
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c2-1.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show">$ 35.990</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 27.990</p>
+                                            <span class="descuento">22% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 4.665 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Whisky Johnnie Walker Black Label 12 Años 750ml</h2>
+    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c2-2.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show">$ 23.490</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 14.534</p>
+                                            <span class="descuento">38% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 3.295 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Pack 12x Cerveza Artesanal Kross Golden Ale 470cc Lata</h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+    
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c2-3.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show">$ 16.700</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 11.690</p>
+                                            <span class="descuento">38% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 3.295 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Vino Casa Real Escudo De Familia Carmenere 750cc </h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+    
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c2-4.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show v-hidden">$ 31.890</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 21.690</p>
+                                            <span class="descuento d-hidden">38% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 3.615 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Pack Cápsulas Café Infaltables Dolce Gusto X3 Cajas</h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+    
+                        <li class="card-item">
+                            <div class="card-content">
+                                <div class="card-image">
+                                    <img src="assets\img\c2-5.webp" width="224" height="224">
+                                </div>
+            
+                            <div class="card-info">
+                                <div class="item-title">
+    
+                                    <div class="precio">
+                                        <s class="precio-anterior d-show v-hidden">$ 31.890</s>
+                                        <div class="precio-actual-descuento">
+                                            <p class="precio-actual gray">$ 6.529</p>
+                                            <span class="descuento d-hidden">38% OFF</span>
+                                        </div>
+                                        <span class="precio-cuotas"><span class="cuotas">6x $ 1.088 sin interés</span></span>
+                                    </div>
+            
+                                    <div class="envio-full d-show">
+                                        <p class="texto-envio-full">Enviado por
+                                        </p>
+                                        <svg class="icon-full" viewBox="0 0 100 32" xmlns="http://www.w3.org/2000/svg"><path d="M6.4 0h12.8l-6.4 11.429h10.667l-17.067 20.571 4.267-13.714h-10.667l6.4-18.286zM34.626 23.467h-4.77l4.077-18.498h13.562l-0.915 4.16h-8.791l-0.61 2.884h8.57l-0.915 4.16h-8.597l-1.609 7.294zM57.687 23.799c-5.685 0-8.486-2.718-8.486-6.601 0-0.305 0.083-0.943 0.139-1.22l2.441-11.010h4.853l-2.413 10.899c-0.028 0.139-0.083 0.444-0.083 0.777 0.028 1.525 1.193 2.995 3.55 2.995 2.551 0 3.855-1.609 4.326-3.772l2.413-10.899h4.826l-2.413 10.982c-0.998 4.493-3.439 7.849-9.152 7.849zM82.33 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16zM98.596 23.467h-12.203l4.077-18.498h4.77l-3.134 14.338h7.405l-0.915 4.16z"></path></svg>
+                                    </div>    
+                                    <h2 class="title-h2">Bombón Chocolate Ferrero Rocher 8 Unid 100g</h2>
+                                    
+                                    <button class="agregar-carrito">Agregar al carrito</button>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="anuncio">
+                    <img src="assets\img\anuncio.webp" alt="anuncio">
+                </section>
+            </div>
+            <section class="pre-footer">
+                <h4>Productos más buscados</h4>
+                <ul class="pre-footer-ul">
+                    <li>Aire Acondicionado</li>
+                    <li>Aire Acondicionado Portatil</li>
+                    <li>Airpod</li>
+                    <li>Apple Watch</li>
+                    <li>Audifonos</li>
+                    <li>Audifonos Bluetooth</li>
+                    <li>Audifonos Inalambricos</li>
+                    <li>Bicicleta</li>
+                    <li>Cafetera</li>
+                    <li>Calculadora Cientifica Casio</li>
+                    <li>Celulares Samsung</li>
+                    <li>Escritorio</li>
+                    <li>Hello Kitty</li>
+                    <li>Horno Electrico</li>
+                    <li>Hot Wheels</li>
+                    <li>Impresoras</li>
+                    <li>Ipad</li>
+                    <li>Iphone 13</li>
+                    <li>Iphone 13 Pro Max</li>
+                    <li>Iphone 14</li>
+                    <li>Iphone 14 Pro Max</li>
+                    <li>Iphone 15</li>
+                    <li>Iphone 15 Pro Max</li>
+                    <li>Lavadora</li>
+                    <li>Mesa Plegable</li>
+                    <li>Nintendo Switch</li>
+                    <li>Notebooks</li>
+                    <li>Parlantes Jbl</li>
+                    <li>Piso Flotante</li>
+                    <li>Playstation 5</li>
+                    <li>Scooter Electrico</li>
+                    <li>Secadora De Ropa</li>
+                    <li>Silla Gamer</li>
+                    <li>Smart Tv</li>
+                    <li>Tablet</li>
+                    <li>Temporizador</li>
+                    <li>Termo Electrico</li>
+                    <li>The North Face</li>
+                    <li>Tommy Hilfiger</li>
+                    <li>Xbox Series S</li>
+                    <li>Ubba Bags</li>
+                    <li>Columbia</li>
+                    <li>Dc Shoes</li>
+                    <li>Coite</li>
+                    <li>Huawei</li>
+                    <li>Rosen</li>
+                    <li>Xiaomi</li>
+                    <li>Zapatilla Mujer</li>
+                    <li>Zapatilla</li>
+                    <li>Zapatilla Hombre</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <div class="secciones-footer">
+                <ul class="ul-footer">
+                    <h4>Acerca de</h4>
+                    <li>Mercado Libre</li>
+                    <li>Investor relations</li>
+                    <li>Tendencias</li>
+                    <li>Sustentabilidad</li>
+                </ul>
+    
+                <ul class="ul-footer">
+                    <h4>Otros sitios</h4>
+                    <li>Developers</li>
+                    <li>Mercado Pago</li>
+                    <li>Mercado Shops</li>
+                    <li>Envíos</li>
+                    <li>Mercado Ads</li>
+                </ul>
+    
+                <ul class="ul-footer">
+                    <h4>Ayuda</h4>
+                    <li>Comprar</li>
+                    <li>Vender</li>
+                    <li>Resolución de problemas</li>
+                    <li>Centro de seguridad</li>
+                </ul>
+    
+                <ul class="ul-footer">
+                    <h4>Redes sociales</h4>
+                    <li>X</li>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                </ul>
+    
+                <ul class="ul-footer">
+                    <h4>Mi cuenta</h4>
+                    <li>Ingresa</li>
+                    <li>Vender</li>
+                </ul>
+    
+                <ul class="ul-footer">
+                    <h4>Suscripciones</h4>
+                    <li>Meli+</li>
+                    <li>Disney+</li>
+                    <li>Star+</li>
+                    <li>Max</li>
+                    <li>Paramount+</li>
+                </ul>
+            </div>
+
+        </footer>
+
 </body>
 </html>
